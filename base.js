@@ -250,7 +250,7 @@ const set_current_img = (path) => {
 };
 
 const set_scene_img = (img_name) => {
-    set_current_img(current_game + "/game_files/images" + img_name);
+    set_current_img(current_game + "/game_files/images/" + img_name);
 };
 
 const set_message = (text) => {
