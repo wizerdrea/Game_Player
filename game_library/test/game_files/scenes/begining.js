@@ -1,3 +1,4 @@
+set_scene_img("test_scene.png");
 set_message("This is a crazy fun test game.  What more could it possibly need? :)");
 set_options([
 {

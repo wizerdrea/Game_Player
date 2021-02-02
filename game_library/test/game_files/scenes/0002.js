@@ -1,3 +1,4 @@
+set_scene_img("test_scene.png");
 set_message("You chose an option.");
 set_options([
 {

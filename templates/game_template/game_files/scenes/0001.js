@@ -1,25 +1,26 @@
+set_scene_img("test_scene.png");
 set_message("This is a crazy fun test game.  What more could it possibly need? :)");
 set_options([
 {
-    message: "you shouldn't see this",
     requirements: [{
         flag: "test",
         test: "equal",
         flag_value: true,
     }],
+    message: "you shouldn't see this",
     
     result_file: "error.js",
     updates: [],
 },
 {
-    message: "you should see this",
     requirements: [{
         flag: "test",
         test: "equal",
         flag_value: false,
     }],
+    message: "you should see this",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {
@@ -35,7 +36,7 @@ set_options([
    },],
     message: "you should see this too",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {
@@ -52,7 +53,7 @@ set_options([
     },],
     message: "you should also see this",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {

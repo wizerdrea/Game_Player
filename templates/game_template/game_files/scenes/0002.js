@@ -1,3 +1,4 @@
+set_scene_img("test_scene.png");
 set_message("You chose an option.");
 set_options([
 {
@@ -8,7 +9,7 @@ set_options([
     }],
     message: "Made best choice",
     
-    result_file: "0002.js",
+    result_file: "end.js",
     updates: [],
 },
 {
@@ -19,21 +20,21 @@ set_options([
     }],
     message: "you shouldn't see this",
     
-    result_file: "error.js",
+    result_file: "end.js",
     updates: [],
 },
 {
     requirements: [],
     message: "test A",
     
-    result_file: "0002.js",
+    result_file: "end.js",
     updates: [],
 },
 {
     requirements: [],
     message: "test B",
     
-    result_file: "0002.js",
+    result_file: "end.js",
     updates: [],
 },
 ]);
