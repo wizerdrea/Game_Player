@@ -1,0 +1,12 @@
+
+Change save_start.js location to prevent issues.  
+
+Set it up so you can either type yourSaveName or save_yourSaveName.js to load a save.
+
+Add remove from flag feature to remove an item from array flags.
+
+Add a does not contain future to check if an array flag doesn't contain a given item.
+
+Add automatic game title picture loading when a game is selected from the game menu.
+
+Add exists and does not exist check for flags
