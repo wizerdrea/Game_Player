@@ -1,0 +1,48 @@
+body {
+    background: #FAFAFA;
+}
+
+#game_body {
+    background: #FAFAFA;
+}
+
+#display {
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+    background: #F1F1F1;
+}
+
+#image_display {
+    width: 100%;
+}
+
+#textbox {
+    padding: 3mm;
+}
+
+#options {
+    
+}
+
+#menu_button {
+    
+}
+
+.play_button {
+    margin-left: 2mm;
+}
+
+.menu_button {
+    margin-left: 2mm;
+}
+
+.choice_button {
+    margin-left: 2mm;
+}
+
+.text_input {
+    margin-left: 2mm;
+    margin-right: -2.1mm;
+}
+
