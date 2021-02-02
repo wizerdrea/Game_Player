@@ -19,7 +19,7 @@ set_options([
     }],
     message: "you should see this",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {
@@ -35,7 +35,7 @@ set_options([
    },],
     message: "you should see this too",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {
@@ -52,7 +52,7 @@ set_options([
     },],
     message: "you should also see this",
     
-    result_file: "0001.js",
+    result_file: "end.js",
     updates: [],
 },
 {

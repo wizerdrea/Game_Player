@@ -1,1 +1,1 @@
-set_game_list(["test"]);
+set_game_list(["test",]);

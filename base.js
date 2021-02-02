@@ -1,6 +1,6 @@
 let game_list = null;
 
-const data_files_path = "/game_files/text/";
+const data_files_path = "/game_files/scenes/";
 let current_game = "game_library/";
 let save_name = null;
 
@@ -102,7 +102,8 @@ const open_menu = () => {
     button.classList.add("menu_button");
     button.innerHTML = "select";
     button.addEventListener("click", (event) => {
-        init_game();
+        window.location.reload(false);
+        return false;
     });
     item.appendChild(button);
     document.getElementById("options").appendChild(item);
@@ -246,6 +247,10 @@ const apply_flag_update = (update) => {
 const set_current_img = (path) => {
     current_img = path;
     document.getElementById("image_display").src = current_img;
+};
+
+const set_scene_img = (img_name) => {
+    set_current_img(current_game + "/game_files/images" + img_name);
 };
 
 const set_message = (text) => {
